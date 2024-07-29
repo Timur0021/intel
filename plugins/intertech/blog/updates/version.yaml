@@ -1,0 +1,15 @@
+v1.0.1:
+    First version of Blog
+
+v1.0.2:
+    Create table intertech_blog_posts
+    - create_posts_table.php
+
+v1.0.3:
+    Create table intertech_blog_categories
+    - create_categories_table.php
+
+v1.0.4:
+    Create table intertech_blog_workers
+    - create_workers_table.php
+

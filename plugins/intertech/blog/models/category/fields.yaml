@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: Name
+        span: left
+        disabled: 0
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        type: text
+    is_enabled:
+        label: 'is Enabled'
+        span: auto
+        type: switch

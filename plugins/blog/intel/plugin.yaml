@@ -1,0 +1,6 @@
+plugin:
+    name: 'blog.intel::lang.plugin.name'
+    description: 'blog.intel::lang.plugin.description'
+    author: Blog
+    icon: oc-icon-adjust
+    homepage: ''

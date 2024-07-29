@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Post
+
+# Model Form Field configuration
+form: $/intertech/blog/models/post/fields.yaml
+
+# Model Class name
+modelClass: Intertech\Blog\Models\Post
+
+# Default redirect location
+defaultRedirect: intertech/blog/posts
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: intertech/blog/posts/update/:id
+    redirectClose: intertech/blog/posts
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: intertech/blog/posts
+    redirectClose: intertech/blog/posts
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

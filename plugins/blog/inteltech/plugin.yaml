@@ -1,0 +1,6 @@
+plugin:
+    name: Intertech
+    description: 'blog.inteltech::lang.plugin.description'
+    author: Blog
+    icon: oc-icon-apple
+    homepage: ''

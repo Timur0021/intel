@@ -1,0 +1,14 @@
+columns:
+    id:
+        label: ID
+        type: text
+        searchable: true
+    name:
+        label: Name
+        type: text
+    slug:
+        label: slug
+        type: text
+    is_enabled:
+        label: 'Is Enable'
+        type: switch
