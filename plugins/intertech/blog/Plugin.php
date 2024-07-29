@@ -75,21 +75,24 @@ class Plugin extends PluginBase
             'blog' => [
                 'label' => 'Blog',
                 'url' => Backend::url('intertech/blog/posts'),
-                'icon' => 'icon-leaf',
-                'permissions' => ['intel.blog.*'],
+                'icon' => 'icon-pencil',
+                'permissions' => ['intertech.blog.*'],
                 'order' => 500,
-                'sideMenu' => []
+                'sideMenu' => [
+                    'posts' => [
+                        'label' => 'Posts',
+                        'icon' => 'icon-copy',
+                        'url' => Backend::url('intertech/blog/posts'),
+                        'permissions' => ['intertech.blog.manage_posts']
+                    ],
+                    'categories' => [
+                        'label' => 'Categories',
+                        'icon' => 'icon-list-ul',
+                        'url' => Backend::url('intertech/blog/categories'),
+                        'permissions' => ['intertech.blog.manage_categories']
+                    ]
+                ]
             ]
-        ]; // Remove this line to activate
-
- //       return [
-//            'blog' => [
-//                'label' => 'Blog',
-//                'url' => Backend::url('intertech/blog/mycontroller'),
-//                'icon' => 'icon-leaf',
-//                'permissions' => ['intertech.blog.*'],
-//                'order' => 500,
-//            ],
-//        ];
+        ];
     }
 }

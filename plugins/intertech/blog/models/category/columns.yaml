@@ -12,3 +12,10 @@ columns:
     is_enabled:
         label: 'Is Enable'
         type: switch
+    created_at:
+        label: 'Created At'
+        type: text
+    updated_at:
+        label: 'Updated At'
+        type: text
+

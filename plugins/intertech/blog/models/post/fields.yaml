@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: Title
+        span: left
+        disabled: 0
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        type: text
+        preset: title
+    short_text:
+        label: 'Short Text'
+        size: small
+        span: full
+        type: textarea
+    text:
+        label: Text
+        size: huge
+        span: full
+        type: textarea
+    category:
+        label: Category
+        nameFrom: name
+        descriptionFrom: description
+        select: name
+        span: left
+        type: relation
+    published_at:
+        label: 'Published At'
+        mode: datetime
+        span: auto
+        type: datepicker
+    is_enabled:
+        label: 'Is Enabled'
+        span: auto
+        type: switch

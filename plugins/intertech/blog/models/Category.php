@@ -16,6 +16,12 @@ class Category extends Model
      */
     public $table = 'intertech_blog_categories';
 
+    protected $fillable = ['name'];
+
+    public $hasOne = [
+        'post' => [Post::class]
+    ];
+
     /**
      * @var array rules for validation
      */

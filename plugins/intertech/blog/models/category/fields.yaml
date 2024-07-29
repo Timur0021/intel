@@ -8,6 +8,7 @@ fields:
         label: Slug
         span: auto
         type: text
+        preset: name
     is_enabled:
         label: 'is Enabled'
         span: auto

@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('slug')->unique();
             $table->text('short_text');
             $table->text('text');
-            $table->integer('category_id')->unsigned();
+            $table->integer('category_id')->unsigned()->index();
             $table->boolean('is_enabled')->default(1);
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
